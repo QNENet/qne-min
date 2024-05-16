@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * and some desktop browsers.
  *
  */
+// @Import(TomcatWellKnownLetsEncryptChallengeEndpointConfig.class)
 @SpringBootApplication
 @Theme(value = "qnemin")
 public class Application implements AppShellConfigurator {
